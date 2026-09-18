@@ -1,0 +1,16 @@
+PRO-MARK 3.9.6 MARK ENTRY COMPATIBILITY FIX
+
+This package keeps the supplied PRO-MARK dashboard format and existing marks storage/upsert path.
+
+Fixed inside this same project:
+- Teacher dashboard JavaScript syntax error that prevented the mark workflow from running.
+- Teacher mark roster endpoint used by the existing screen.
+- Existing saved marks are loaded back into the mark sheet.
+- Teacher ownership of an assignment is checked before loading/saving.
+- Academic term is passed to the roster lookup.
+- Teacher mark-sheet PDF download endpoint used by the existing button.
+- Frontend school context is retained for mark roster requests.
+
+No teacher usernames, teacher passwords, school identities, or existing mark records are renamed/reset by this package.
+Do not replace the existing .env with a newly generated one. Keep the database connection settings used by the working installation.
+Do not rerun database/schema.sql against an existing PRO-MARK database.
