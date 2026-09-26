@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="t d">
+<title id="t">PRO-MARK logo</title><desc id="d">Academic shield and upward analytics mark for PRO-MARK School Management Portal</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17365D"/><stop offset="1" stop-color="#285b91"/></linearGradient></defs>
+<circle cx="160" cy="160" r="150" fill="#fff" stroke="#D9A441" stroke-width="10"/>
+<path d="M78 72h164v96c0 51-34 89-82 111-48-22-82-60-82-111z" fill="url(#g)"/>
+<path d="M112 187l31-34 22 22 45-57 14 13-59 74-22-22-18 20z" fill="#D9A441"/>
+<path d="M105 106h110v18H105z" fill="#fff" opacity=".96"/>
+<text x="160" y="276" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="800" letter-spacing="4" fill="#17365D">PRO-MARK</text>
+</svg>
